@@ -1,0 +1,137 @@
+.insert-video-icon {
+margin-top:1px;
+width:16px;
+height:16px;
+background:url(../images/video.png) no-repeat top left;
+background-repeat:no-repeat;
+display:inline-block;
+vertical-align:text-top;
+margin-right:2px;
+}
+
+.insert-video-single-icon {
+margin-top:1px;
+width:16px;
+height:16px;
+background:url(../images/btn-video.png) no-repeat top left;
+background-repeat:no-repeat;
+display:inline-block;
+vertical-align:text-top;
+margin-right:2px;
+}
+
+.insert-video-multiple-icon {
+margin-top:1px;
+width:16px;
+height:16px;
+background:url(../images/btn-list.png) no-repeat top left;
+background-repeat:no-repeat;
+display:inline-block;
+vertical-align:text-top;
+margin-right:2px;
+}
+
+.insert-video-table {
+width:100%;
+}
+.insert-video-table th,
+.insert-video-table td {
+    padding:10px;
+    padding-bottom:0;   
+    vertical-align:middle !important;
+}
+.insert-video-table th {
+text-align:right !important;
+}
+.insert-video-input {
+width:100%;
+}
+.insert-video-checkbox {
+margin-right:20px;
+}
+.insert-video-input-time {
+width:100px;
+}
+.insert-video-title {
+    width:100px;
+}
+.insert-video-recent-header {
+border-bottom:1px solid #e0e0e0;
+padding-bottom:5px;
+margin-top:20px;
+margin-bottom:10px;
+border-bottom:1px solid #e0e0e0;
+}
+.insert-video-recent-header h3,
+.insert-video-recent-header p {
+margin:0 !important;
+padding:0 !important;
+}
+.insert-video-spinner {
+width:16px;
+height:16px;
+display:inline-block;
+vertical-align:middle;
+margin-right:8px;
+background-image:url(../images/loading.gif);
+margin-top:6px;
+margin-left:10px;
+}
+#insert-video-status {
+height:16px;
+display:inline-block;
+margin-top:6px;
+vertical-align:middle;
+}
+#insert-video-loading {
+display:none;
+}
+.insert-video-error {
+color:red;
+}
+.insert-video-status-row td {
+padding-top:0 !important;
+vertical-align:top !important;
+}
+#TB_ajaxContent {
+width:96% !important;
+height:93% !important;
+}
+.insert-video-50 {
+width:50%;
+float:left;
+}
+.insert-video-25 {
+width:23%;
+float:left;
+margin-right:2%;
+margin-bottom:10px;
+}
+.insert-video-text-right {
+text-align:right;
+}
+
+/* Embedder */
+.rem-video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+
+.rem-video-container iframe,
+.rem-video-container object,
+.rem-video-container embed,
+.rem-video-container video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.insert-video-thumbnail img {
+width:100%;
+height:auto;
+}
